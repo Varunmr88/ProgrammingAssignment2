@@ -39,7 +39,7 @@ cacheSolve <- function(x, ...) {
     m
 }
 ## Trying with an example.
-matrixoriginal <- matrix(c(1,2,3,4,5,6),2,3)
+matrixoriginal <- matrix(c(1,2,3,4,5,6,7,8.9),3,3)
 cachedmatrix <- makeCacheMatrix(matrixoriginal)
 cacheSolve(cachedmatrix)
 cacheSolve(cachedmatrix)
